@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Full Stack Java Developer Portfolio - Showcasing projects, experience, and skills">
+    <meta name="keywords" content="Java Developer, Full Stack, Spring Boot, React, Portfolio">
+    <meta name="author" content="Suma Ramesh Ajavaladavaru">
+    <title>Portfolio | Full Stack Java Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ==================== LOADER ==================== -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-text">Developer</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== DEVELOPER SECTION ==================== -->
+    <section id="home" class="developer">
+        <div class="container">
+            <div class="developer-content">
+                <div class="developer-left">
+                    <div class="developer-greeting">Hi, I'm</div>
+                    <h1 class="developer-name">Suma Ramesh Ajavaladavaru</h1>
+                    <h2 class="developer-role">
+                        <span class="typing-text">Full Stack Java Developer</span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="developer-description">
+                        Passionate about building scalable web applications and solving complex problems.
+                        Specialized in Java, MySQL, HTML, CSS, Python and modern web technologies.
+                    </p>
+                    <div class="developer-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#" class="btn btn-secondary" download>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="developer-right">
+                    <div class="code-editor">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="code-title">developer.js</div>
+                        </div>
+                        <div class="code-body">
+                            <div class="code-lines"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="developer-scroll">
+            <span>Scroll Down</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="education" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            <div class="timeline"></div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools I work with</p>
+            </div>
+            <div class="skills-grid"></div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-grid"></div>
+            <div class="social-links"></div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Suma Ramesh Ajavaladavaru. All rights reserved.</p>
+            <p>Built with passion and code ❤️</p>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="js/constants.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
