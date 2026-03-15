@@ -5,7 +5,7 @@
 // Contact Information
 const contactInfo = {
     email: "sumaramesh1703@gmail.com",
-    phone: "+91 9743899893",
+    phone: "+91 ",
     location: "BTM Layout, Bengaluru, Karnataka, India",
     social: {
         github: "https://github.com/SUMA-su-svg",
